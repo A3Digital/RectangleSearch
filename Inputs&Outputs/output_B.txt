@@ -1,0 +1,1 @@
+A total of 3 rectangle(s) can be made with the provided points.
