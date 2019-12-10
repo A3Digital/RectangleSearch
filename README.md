@@ -16,6 +16,6 @@ It is given that if two diagonals have the same midpoint and length, they form a
 To avoid repitions of diagonals such as  
 **Diagonal 1: (a, b) -> (c, d)  
 Diagonal 2: (c, d) -> (a, b)**  
-,for every point, I only form diagonals with the points that come after it in the vector. So if point (a, b) comes before (c, d), only Diagonal 1 will be formed and vice versa.
+when creating the diagonals, for every point, I only form diagonals with the points that come after it in the vector. So if point (a, b) comes before (c, d), only Diagonal 1 will be formed and vice versa.
 
 This solution has an order notation of **O(n^2)** with n being the number of points given.
